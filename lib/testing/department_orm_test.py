@@ -4,7 +4,7 @@ import pytest
 
 
 class TestDepartment:
-    '''Class Department in department.py'''
+    '''Class Department in department.py''' # docstring
 
     @pytest.fixture(autouse=True)
     def drop_tables(self):
